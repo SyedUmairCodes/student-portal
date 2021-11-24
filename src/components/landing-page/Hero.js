@@ -37,8 +37,8 @@ const Hero = () => {
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <StaticImage
-              class="object-cover object-center rounded"
-              src="https://i.ibb.co/KxHzmJH/hero.jpg"
+              class="object-cover object-right"
+              src="https://i.ibb.co/tL0K1Z3/president.png"
               alt="hero"
               placeholder="blurred"
               layout="constrained"
