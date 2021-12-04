@@ -7,17 +7,26 @@ const Team = () => {
     <>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col w-full mb-20 text-center">
-            <h1 className="mb-4 text-2xl font-medium tracking-widest text-gray-900 title-font">
+          {/* <div className="flex flex-col w-full mb-20 text-center">
+            <h1 className="mb-4 text-2xl font-bold tracking-widest text-gray-900 title-font">
               OUR <span className="text-green-500">TEAM</span>
             </h1>
             <p className="mx-auto text-base leading-relaxed lg:w-2/3">
+             
+            </p>
+          </div> */}
+          <div class="max-w-lg mx-auto text-center">
+            <h2 class="text-3xl font-bold text-black sm:text-4xl">
+              Learn From Our Amazing Faculty
+            </h2>
+
+            <p class="mt-4 mb-5 text-gray-400">
               Learn from the greatest Developers and Teacher of Pakistan that
-              have years of professional Experince.
+              have years of professional experince.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="p-4 lg:w-1/2">
+            <div className="p-4 border-green-800 lg:w-1/2">
               <div className="flex flex-col items-center justify-center h-full text-center sm:flex-row sm:justify-start sm:text-left">
                 <StaticImage
                   alt="team"

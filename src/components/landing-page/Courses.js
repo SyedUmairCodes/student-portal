@@ -3,129 +3,228 @@ import { Link } from "gatsby";
 const Courses = () => {
   return (
     <>
-      <section className="text-gray-600 border-b-2 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col w-full mb-20 text-center">
-            <h2 className="mb-1 text-xs font-medium tracking-widest text-green-600 title-font">
-              LEARN THE LATEST SKILLS
+      <section class="bg-green-900">
+        <div class="px-4 py-16 mx-auto max-w-screen-xl space-y-8 sm:px-6 lg:px-8">
+          <div class="max-w-lg mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white sm:text-4xl">
+              Courses That We Offer
             </h2>
-            <h1 className="mb-4 text-2xl font-medium text-gray-900 sm:text-3xl title-font">
-              Course We Offer
-            </h1>
-            <p className="mx-auto text-base leading-relaxed lg:w-2/3">
-              We offer state of the art and future proof courses that will help
-              become a developer for the future.
+
+            <p class="mt-4 text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              ratione sed cumque molestiae dolores eaque odit corporis accusamus
+              reprehenderit laborum?
             </p>
           </div>
-          <div className="flex flex-wrap">
-            <div className="px-8 py-6 border-l-2 border-gray-200 shadow-lg cursor-pointer xl:w-1/4 lg:w-1/2 md:w-full border-opacity-60">
-              <h2 className="mb-2 text-lg font-medium text-gray-900 sm:text-xl title-font">
-                Artifical Intelligence
-              </h2>
-              <p className="mb-4 text-base leading-relaxed">
-                Learn the latest skills of AI, ML and Data science to be ready
-                for the future.
-              </p>
-              <Link
-                to="#"
-                className="inline-flex items-center font-semibold text-green-500 hover:font-size-lg"
+
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </Link>
-            </div>
-            <div className="px-8 py-6 border-l-2 shadow-lg cursor-pointer xl:w-1/4 lg:w-1/2 md:w-full border-opacity-60">
-              <h2 className="mb-2 text-lg font-medium text-gray-900 sm:text-xl title-font">
-                Cloud Native Computing
-              </h2>
-              <p className="mb-4 text-base leading-relaxed">
-                Learn all about AWS, GraphQL and the JAMstack to be a great
-                full-stack serverless developer.
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Lorem, ipsum dolor.
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
               </p>
-              <Link
-                to="#"
-                className="inline-flex items-center font-semibold text-green-500"
+            </Link>
+
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </Link>
-            </div>
-            <div className="px-8 py-6 border-l-2 border-gray-200 shadow-lg cursor-pointer xl:w-1/4 lg:w-1/2 md:w-full border-opacity-60">
-              <h2 className="mb-2 text-lg font-medium text-gray-900 sm:text-xl title-font">
-                Blockchain
-              </h2>
-              <p className="mb-4 text-base leading-relaxed">
-                Learn everything about Web3, Blockchain, smart contracts, ETH
-                and more.
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Lorem, ipsum dolor.
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
               </p>
-              <Link
-                to=""
-                className="inline-flex items-center font-semibold text-green-500"
+            </Link>
+
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </Link>
-            </div>
-            <div className="px-8 py-6 border-l-2 border-gray-200 shadow-lg cursor-pointer xl:w-1/4 lg:w-1/2 md:w-full border-opacity-60">
-              <h2 className="mb-2 text-lg font-medium text-gray-900 sm:text-xl title-font">
-                Internet of Things
-              </h2>
-              <p className="mb-4 text-base leading-relaxed">
-                Build smart devices that intreact with your household appliances
-                and RPi systems
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Lorem, ipsum dolor.
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
               </p>
-              <Link
-                to=""
-                className="inline-flex items-center font-semibold text-center text-green-500"
+            </Link>
+
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </Link>
-            </div>
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Lorem, ipsum dolor.
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
+              </p>
+            </Link>
+
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Lorem, ipsum dolor.
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
+              </p>
+            </Link>
+
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Lorem, ipsum dolor.
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
+              </p>
+            </Link>
           </div>
-          <button className="flex px-8 py-2 mx-auto mt-16 text-lg text-white bg-green-500 border-0 rounded focus:outline-none hover:bg-green-600">
-            Browse All Courses
-          </button>
+
+          <div class="text-center">
+            <Link
+              class="inline-block px-5 py-3 text-sm font-medium text-white bg-green-500 rounded"
+              href=""
+            >
+              Browse All Courses
+            </Link>
+          </div>
         </div>
       </section>
     </>
