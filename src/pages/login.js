@@ -1,10 +1,13 @@
 import React from 'react'
+import Login from '../components/forms/Login'
 
 const login = () => {
+
+  
     return (
-        <div>
-            This is login Page
-        </div>
+    
+     <Login />
+      
     )
 }
 
