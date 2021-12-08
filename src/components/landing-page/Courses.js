@@ -40,7 +40,73 @@ const Courses = () => {
               </svg>
 
               <h3 class="mt-3 text-xl font-bold text-white">
-                Lorem, ipsum dolor.
+                Internet of Things
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
+              </p>
+            </Link>
+
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Artifical Intelligence
+              </h3>
+
+              <p class="mt-4 text-sm text-gray-300">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+                eius labore nisi tempore modi vel voluptate ullam nostrum
+                adipisci suscipit eaque quae cupiditate, accusamus minus
+                laboriosam totam laborum, deserunt sint.
+              </p>
+            </Link>
+
+            <Link
+              class="block p-8 border border-green-800 shadow-xl rounded-xl"
+              href=""
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-10 h-10 text-green-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                />
+              </svg>
+
+              <h3 class="mt-3 text-xl font-bold text-white">
+                Cloud Native Computing
               </h3>
 
               <p class="mt-4 text-sm text-gray-300">
@@ -106,7 +172,7 @@ const Courses = () => {
               </svg>
 
               <h3 class="mt-3 text-xl font-bold text-white">
-                Lorem, ipsum dolor.
+                Web3.0 Technologies
               </h3>
 
               <p class="mt-4 text-sm text-gray-300">
@@ -139,73 +205,7 @@ const Courses = () => {
               </svg>
 
               <h3 class="mt-3 text-xl font-bold text-white">
-                Lorem, ipsum dolor.
-              </h3>
-
-              <p class="mt-4 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                eius labore nisi tempore modi vel voluptate ullam nostrum
-                adipisci suscipit eaque quae cupiditate, accusamus minus
-                laboriosam totam laborum, deserunt sint.
-              </p>
-            </Link>
-
-            <Link
-              class="block p-8 border border-green-800 shadow-xl rounded-xl"
-              href=""
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-10 h-10 text-green-400"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
-
-              <h3 class="mt-3 text-xl font-bold text-white">
-                Lorem, ipsum dolor.
-              </h3>
-
-              <p class="mt-4 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
-                eius labore nisi tempore modi vel voluptate ullam nostrum
-                adipisci suscipit eaque quae cupiditate, accusamus minus
-                laboriosam totam laborum, deserunt sint.
-              </p>
-            </Link>
-
-            <Link
-              class="block p-8 border border-green-800 shadow-xl rounded-xl"
-              href=""
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-10 h-10 text-green-400"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
-
-              <h3 class="mt-3 text-xl font-bold text-white">
-                Lorem, ipsum dolor.
+                Blockchain Computing
               </h3>
 
               <p class="mt-4 text-sm text-gray-300">

@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h2 class="text-3xl font-bold text-black sm:text-4xl">
-              Getting <span className="text-green-500">Pakistan</span>
+              Getting <span className="text-green-700">Pakistan</span>
               <br class="lg:inline-block" />
               Ready For The Future
             </h2>
