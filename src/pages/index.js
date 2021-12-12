@@ -4,7 +4,8 @@ import Courses from "../components/landing-page/Courses";
 import Hero from "../components/landing-page/Hero";
 import Team from "../components/landing-page/Team";
 import Stats from "../components/landing-page/Stats";
-import Footer from "../components/footer/Footer";
+
+import Footernew from "../components/footer/Footernew";
 
 const index = () => {
   return (
