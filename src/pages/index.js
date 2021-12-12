@@ -5,7 +5,7 @@ import Hero from "../components/landing-page/Hero";
 import Team from "../components/landing-page/Team";
 import Stats from "../components/landing-page/Stats";
 
-import Footernew from "../components/footer/Footernew";
+import Footer from "../components/footer/Footer";
 
 const index = () => {
   return (
